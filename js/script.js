@@ -1,0 +1,5 @@
+$(function(){
+    $(".secach").click(function(){
+        
+    });
+});
