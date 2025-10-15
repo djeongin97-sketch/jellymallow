@@ -333,7 +333,7 @@ ul {
 
     .main_text {
         width: 100%;
-        top: 65%;
+        top: 50%;
     }
 }
 
@@ -471,6 +471,10 @@ img{
     display: none;
 }
 
+.text_box_hidden{
+    display: none;
+}
+
 @media(max-width:1400px) {
     #story {
         width: 100%;
@@ -510,9 +514,26 @@ img{
         width: 100%;
     }
 
-    .text_box {
+    .story_wrap img {
         width: 100%;
     }
+
+    .text_box {
+        width: 100%;
+        padding: 20px 45px;
+    }
+
+    .st_text {
+        display: block;
+    }
+
+    .text_box_wrap{
+        display: none;
+    }
+
+    .text_box_hidden{
+    display: block;
+}
 }
 .gif{
     margin: 60px auto;
