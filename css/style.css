@@ -205,6 +205,10 @@ ul {
     left: 0;
 }
 
+.slide li a{
+    padding-left: 10px;
+}
+
 .slide ul li {
     display: inline-block;
     width: 100%;
@@ -333,7 +337,7 @@ ul {
 
     .main_text {
         width: 100%;
-        top: 50%;
+        top: 45%;
     }
 }
 
